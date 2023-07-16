@@ -1,7 +1,10 @@
 
 import math as math
+
 def f(x):
     return math.sqrt(x)-10
+
+
 def f_tag(x):
     return 0.5*(1/math.sqrt(x))
 def newton_raphson(f,f_tag,a):
